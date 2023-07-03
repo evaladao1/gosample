@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_gosample_1688402557307-push-trigger-input-set
+  identifier: Build_gosample_1688402557307pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Partner_Bootcamp
+  pipeline:
+    identifier: Build_gosample_1688402557307
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
